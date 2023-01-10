@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <head>
-    <center> <h1> Registration </h1> </center>
-    <img href= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxaMyr39F1rFowJsjHwhzqBG5iFCN4Qbh6F-UUyurzBhQPGExTpQ37OJXP9rLazDaVPzE&usqp=CAU">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <center><body bgcolor="#60a6a2">  
-        <br>   
-        <br>  
+    <div class="container">
+        <div class="title"><h1>Registration</h1></div>
         <form>
         <table>
         <tr>
-            <td> <label> Firstname </label>  </td>
-            <td> <input type="text" name="firstname" size="15"/> <br></td>
+            <td> <label> Full Name</label>  </td>
+            <td><input type="text" placeholder="Enter your name" required></td><br>
             <td> <label> Phone :  </label>  </td>
             <td>
                <input type="text" name="country code"  value="+91" size="2"/>  
-               <input type="text" name="phone" size="10"/> <br> <br>
+               <input type="text" placeholder="Enter your number" required> <br> <br>
             </td>
         </tr>   
         
         <tr>
-            <td><label> Middlename: </label></td>
-            <td><input type="text" name="middlename" size="15"/> <br> </td>
+            <td><label> Username: </label></td>
+            <td><input type="text" placeholder="Enter your username" required> <br> </td>
             <td> Email:</td>
-            <td> <input type="email" id="email" name="email"/> <br>    
+            <td>  <input type="text" placeholder="Enter your email" required> <br>    
                 <br>
             </td>
 
         </tr>
 
         <tr>
-            <td> <label> Lastname: </label> </td>
-            <td> <input type="text" name="lastname" size="15"/> <br> <br> 
             <td>Password:  </td>
-            <td><input type="Password" id="pass" name="pass"> <br>
+            <td><input type="password" placeholder="Enter your password" required> <br>
             </td>
+            <td>Re-type password:  </td>
+            <td><input type="text" placeholder="Confirm your password" required><br> <br> </td>
+            <br>
+            <br>
         </tr>
         
         <tr>
             <td><label> Gender :  </label><br></td>
-            <td> <input type="radio" name="male"/> Male <br>
-             <input type="radio" name="female"/> Female <br>
-            <input type="radio" name="other"/> Other <br> </td> 
-            
-            <td>Re-type password:  </td>
-            <td><input type="Password" id="repass" name="repass"> <br> <br> </td>
-            <br>
-            <br>
+            <td> <input type="radio" name="male"/> Male </td>
+            <td><input type="radio" name="female"/> Female </td>
+            <td><input type="radio" name="other"/> Other </td> 
         </tr>
 
         <br>  
@@ -53,7 +50,9 @@
 </table>
 <br>
 <br>
-<center><input type="submit" value="Submit"/> </center> 
+<div class="button">
+    <input type="submit" value="Submit">
+</div>
 </form>  
 </body>  
 </center>
