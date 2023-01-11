@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <TITLE> Registration </TITLE>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/en/f/f0/Vishwakarma_Institute_of_Technology.png">
 </head>
 
 <center><body bgcolor="#60a6a2">  
     <div class="container">
         <div class="title"><h1>Registration</h1></div>
+        <hr size="5px" style="background: linear-gradient(135deg, #71b7e6, #9b59b6);">
         <form>
-        <table>
-        <tr>
-            <td> <label> Full Name</label>  </td>
-            <td><input type="text" placeholder="Enter your name" required></td><br>
-            <td> <label> Phone :  </label>  </td>
-            <td>
-               <input type="text" name="country code"  value="+91" size="2"/>  
-               <input type="text" placeholder="Enter your number" required> <br> <br>
-            </td>
-        </tr>   
-        
-        <tr>
-            <td><label> Username: </label></td>
-            <td><input type="text" placeholder="Enter your username" required> <br> </td>
-            <td> Email:</td>
-            <td>  <input type="text" placeholder="Enter your email" required> <br>    
+            <table>
+                <tr>
+                    <td> <label> Full Name</label>  </td>
+                    <td><input type="text" placeholder="Enter your name" required></td><br>
+                    <td> <label style="margin-left: 20px;"> Phone :  </label>  </td>
+                    <td>
+                       <input type="text" name="country code"  value="+91" size="2"/>  
+                       <input type="text" placeholder="Enter your number" required> <br> <br>
+                    </td>
+                    </tr>   
+                
+                        <tr>
+                            <td><label> Username: </label></td>
+                            <td><input type="text" placeholder="Enter your username" required> <br> </td>
+                            <td> <label style="margin-left: 20px;"> Email: </label></td>
+                            <td>  <input type="text" placeholder="Enter your email" required> <br>    
+                                <br>
+                            </td>
+                
+                            </tr>
+                
+                            <tr>
+                                <td>Password:  </td>
+                                <td><input type="password" placeholder="Enter your password" required> <br></td>
+                                <td><label style= "margin-left: 20px;"> Confirm Password:  </label></td>
+                                <td><input type="text" placeholder="Confirm your password" required><br> <br> </td>
+                                <br>
+                                <br>
+                            </tr>
+                            
+            </table>
+
+            <!-- <tr>
+                <td>Password:  </td>
+                <td><input type="password" placeholder="Enter your password" required> <br></td>
+                <td><label style= "margin-left: 20px;"> Confirm Password:  </label></td>
+                <td><input type="text" placeholder="Confirm your password" required><br> <br> </td>
                 <br>
-            </td>
+                <br>
+            </tr> -->
 
-        </tr>
-
-        <tr>
-            <td>Password:  </td>
-            <td><input type="password" placeholder="Enter your password" required> <br>
-            </td>
-            <td>Re-type password:  </td>
-            <td><input type="text" placeholder="Confirm your password" required><br> <br> </td>
-            <br>
-            <br>
-        </tr>
-        
         <tr>
             <td><label> Gender :  </label><br></td>
             <td> <input type="radio" name="male"/> Male </td>
@@ -48,8 +61,7 @@
         <br>  
         <br>  
 </table>
-<br>
-<br>
+
 <div class="button">
     <input type="submit" value="Submit">
 </div>
