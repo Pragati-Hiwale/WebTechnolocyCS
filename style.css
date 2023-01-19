@@ -5,6 +5,7 @@ body{
     align-items: center;
     padding: 10px;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      /* background-image: url("f"); */
   }
   .container{
     max-width: 700px;
@@ -19,7 +20,12 @@ body{
     font-weight: 500;
     position: relative;
   }
-  .container .title::before{
+
+  .h1{
+    font-size: 30px;
+    font-weight: 100;
+  }
+  /* .container .title::before{
     content: "";
     position: absolute;
     left: 0;
@@ -28,7 +34,7 @@ body{
     width: 30px;
     border-radius: 5px;
     background: linear-gradient(135deg, #387ca9, #b659ae);
-  }
+  } */
 
   form .button{
     height: 45px;
